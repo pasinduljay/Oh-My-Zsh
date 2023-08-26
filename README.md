@@ -25,7 +25,7 @@ Now we need to install the **zsh** shell in our wsl or wsl2. You can easily inst
 We will also install **oh-my-zsh** which is a nice configuration extension to the **zsh** shell. That will allow us to easily customize anything, install a theme, and add plugins later.
 
 ```bash
-sudo apt-get update && apt-get upgrade
+sudo apt-get update && apt-get upgrade -y
 
 sudo apt install git zsh -y
 
@@ -102,3 +102,11 @@ source $ZSH_CUSTOM/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 source $ZSH_CUSTOM/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 ```
+<br>
+
+# 💰 You can help me by Donating
+<img align="center" alt="Coding" width="400" src="https://github.com/pasinduljay/pasinduljay/blob/main/Resources/user2.gif">
+
+<a href="https://buymeacoffee.com/pasinduljay" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="50px" ></a>
+<a href="https://paypal.me/980822" target="_blank"><img src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" alt="Buy Me A Coffee" height="50px" >
+<br><br>
