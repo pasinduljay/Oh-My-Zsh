@@ -25,7 +25,7 @@ Now we need to install the **zsh** shell in our wsl or wsl2. You can easily inst
 We will also install **oh-my-zsh** which is a nice configuration extension to the **zsh** shell. That will allow us to easily customize anything, install a theme, and add plugins later.
 
 ```bash
-sudo apt-get update && apt-get upgrade -y
+sudo apt-get update && sudo apt-get upgrade -y
 
 sudo apt install git zsh -y
 
@@ -102,6 +102,10 @@ source $ZSH_CUSTOM/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 source $ZSH_CUSTOM/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 ```
+<br><br>
+> **Note**: If you encounter any issues or updates that require reconfiguring Powerlevel10k, you can easily do so using the following command: **```p10k configure```**
+
+
 <br>
 
 # 💰 You can help me by Donating
